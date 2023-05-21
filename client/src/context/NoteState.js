@@ -54,7 +54,7 @@ const NoteState = (props) => {
         });
         // console.log(res.data.projects);
         setProjects(res.data.projects);
-      } catch {
+      } catch(err) {
         return null;
       }
     };

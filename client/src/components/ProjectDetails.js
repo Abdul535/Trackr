@@ -50,7 +50,6 @@ const ProjectDetails = () => {
         setCreatedBy(response.data.createdBy);
         setStatus(response.data.status);
       })
-
       .catch((error) => {
         // setProjectNotFound(true);
         console.log(error);

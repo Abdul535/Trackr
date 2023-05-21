@@ -19,7 +19,7 @@ const LogIn = () => {
   const navigate = useNavigate();
   const context = useContext(noteContext);
 
-  const handleGoogleLogin = async () => {
+  const handleGoogleLogin = () => {
     window.location = `${baseURL}/auth/google`;
   };
   const demoUserLogin = async (e) => {
